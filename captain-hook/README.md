@@ -9,3 +9,5 @@ Ahoy, matey! Set sail on the code seas with Captain Hook at the helm. With a fli
 ## Output / Evaluation Criteria
 
 - Each commit should have a corresponding log entry in the commits.txt file in the out directory
+
+Easy 25PT Bash
