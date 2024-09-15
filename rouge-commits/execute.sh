@@ -17,3 +17,5 @@ if [ -z "$GIT_AUTHOR_NAME" ] || [ "$GIT_AUTHOR_NAME" = "$old_name" ]; then
     export GIT_COMMITTER_NAME="$correct_name"
 fi
 ' --tag-name-filter cat -- --branches --tags
+
+# tried using git-filter-repo, but couldn't make it work
