@@ -33,9 +33,7 @@ test('should validate if only bash files are present', () => {
 });
 
 test('should check if the shortcut is setup properly', async () => {
-    console.log("before execteeeeeeee")
     await exec('bash execute.sh');
-    console.log("after exceeeeee")
     const result = await exec('bash -c "ethereal"');
     expect(result?.trim()).toStrictEqual(output);
 });
